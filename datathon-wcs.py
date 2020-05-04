@@ -25,7 +25,7 @@ path='https://github.com/KoxNoob/Datathon/blob/master/logo.png?raw=true'
 st.sidebar.image(path, use_column_width=True, format='PNG')
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Save my election</h1>", unsafe_allow_html=True)
-
+st.markdown("<h2 style='text-align: center; color: grey;'>Les noms des groupes politiques et noms des candidats ont été volontairement modifiés</h2>", unsafe_allow_html=True)
 group_by_1 = group_by_1.reset_index()
 
 vue = st.sidebar.radio(

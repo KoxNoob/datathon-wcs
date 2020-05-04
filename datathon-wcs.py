@@ -21,8 +21,8 @@ toto = pd.read_csv(link2)
 pred1 = pd.read_csv(link3)
 pred2 = pd.read_csv(link4)
 
-path="C:\\Users\\lmevi\\OneDrive\\Pictures\\Datathon\\logo.png"
-st.sidebar.image(Image.open(path), use_column_width=True)
+path="https://github.com/KoxNoob/Datathon/blob/master/logo.png?raw=true"
+st.sidebar.image(Image.open(path), use_column_width=True, format='PNG')
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Save my election</h1>", unsafe_allow_html=True)
 

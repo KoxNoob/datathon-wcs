@@ -161,4 +161,4 @@ else:
      title2 = "<h2 style='text-align: center; color: grey;'></br></br>Votes blancs ou nuls</h2>"
      st.markdown(title2, unsafe_allow_html=True)
      path="https://github.com/KoxNoob/Datathon/blob/master/blanc.png?raw=true"
-     st.image(path,, use_column_width=True)
+     st.image(path, use_column_width=True)
